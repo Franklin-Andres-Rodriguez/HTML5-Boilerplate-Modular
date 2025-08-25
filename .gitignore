@@ -1,0 +1,9 @@
+# Development
+.vscode/
+.DS_Store
+node_modules/
+*.log
+
+# Temporary files
+*.tmp
+*.swp
