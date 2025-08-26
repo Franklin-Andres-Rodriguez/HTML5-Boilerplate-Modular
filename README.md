@@ -1,431 +1,348 @@
-<div align="center">
-  <h1>🚀 HTML5 Boilerplate Modular</h1>
-  <p><strong>Un boilerplate moderno, semántico y completamente modular para proyectos web HTML5</strong></p>
-  
-  [![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/tuusuario/html5-boilerplate-modular/releases)
-  [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-  [![HTML5](https://img.shields.io/badge/HTML5-semantic-orange.svg)]()
-  [![CSS3](https://img.shields.io/badge/CSS3-modern-blue.svg)]()
-  [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)]()
-  [![GitHub stars](https://img.shields.io/github/stars/tuusuario/html5-boilerplate-modular?style=social)](https://github.com/tuusuario/html5-boilerplate-modular/stargazers)
-  
-  <p>
-    <a href="#-instalación-rápida">Instalación</a> •
-    <a href="#-descargas">Descargas</a> •
-    <a href="#-proyectos-existentes">Proyectos Existentes</a> •
-    <a href="#-demo">Demo</a> •
-    <a href="#-contribuir">Contribuir</a>
-  </p>
+# 🚀 HTML5 Boilerplate Modular
 
-  <p><em>Diseñado con <strong>descarga selectiva</strong> - toma solo lo que necesitas sin romper tu proyecto existente</em></p>
-</div>
+Un boilerplate moderno, semántico y completamente modular para proyectos web HTML5 con **descarga selectiva** real.
 
----
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](package.json)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![HTML5](https://img.shields.io/badge/HTML5-ready-orange.svg)]()
+[![CSS3](https://img.shields.io/badge/CSS3-modular-blue.svg)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-utilities-yellow.svg)]()
 
-## 🎯 **¿Por qué usar este Boilerplate?**
+> **Instalación • Uso • Personalización • Contribuir**
 
-Este boilerplate **resuelve el problema real** de tener que empezar desde cero cada proyecto web, pero también el problema de **integrar código nuevo en proyectos existentes sin romper nada**.
+**Diseñado con descarga selectiva real** - toma solo lo que necesitas sin romper tu proyecto existente.
 
-### 🆕 **Nuevas Características v2.0**
+## 🎯 ¿Por qué usar este Boilerplate?
 
-- 🤖 **Instalador Inteligente** - Detecta tu proyecto y recomienda qué instalar
-- 📱 **Versión Ultra-Mínima** - Menos de 8KB para proyectos simples
-- 🛡️ **Cero Conflictos** - Archivos con prefijo para proyectos existentes
-- 🔍 **Detección de Frameworks** - Reconoce React, Vue, Angular, Svelte
-- ⚡ **6 Versiones Diferentes** - Desde mínima hasta completa
+Este boilerplate resuelve el problema real de tener que empezar desde cero cada proyecto web, proporcionando tres versiones optimizadas para diferentes necesidades:
 
----
+- **🎯 Versión Completa (124KB)** - Proyecto web completo con todas las funcionalidades
+- **⚡ Versión Mínima (60KB)** - Ultra-optimizada para landing pages rápidas  
+- **📄 Solo HTML (36KB)** - Componentes puros para integrar en proyectos existentes
 
-## ✨ **Características Destacadas**
+## ✨ Características Principales
 
-- 🏗️ **Estructura HTML5 semántica completa** - header, main, section, article, aside, footer
-- 🎨 **Sistema CSS modular con variables** - Personalización súper fácil
-- 📱 **Diseño responsive mobile-first** - Funciona perfecto en todos los dispositivos  
-- ♿ **Accesibilidad integrada** - ARIA, skip links, keyboard navigation, WCAG 2.1 AA
-- 🔍 **SEO optimizado** - Meta tags, Open Graph, Twitter Cards, structured data
-- ⚡ **Performance <15KB** - Lazy loading, preconnect, optimizado para Core Web Vitals
+- 🏗️ **HTML5 semántico completo** - `<header>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
+- 🎨 **Sistema CSS modular** - Variables personalizables, reset moderno, responsive mobile-first
+- 📱 **Diseño responsive** - Funciona perfecto en todos los dispositivos
+- ♿ **Accesibilidad integrada** - ARIA, skip links, keyboard navigation
+- 🔍 **SEO optimizado** - Meta tags, Open Graph, Twitter Cards
+- ⚡ **Performance** - Optimizado para Core Web Vitals
 - 🌐 **Cross-browser compatible** - Chrome, Firefox, Safari, Edge
 - 🔧 **100% modular** - Usa solo las partes que necesites
 
----
+## 📦 Versiones Disponibles
 
-## 📦 **Descargas Disponibles**
-
-### 🆕 Para Proyectos Nuevos
-| Descarga | Descripción | Tamaño | Incluye | Ideal para |
-|----------|-------------|--------|---------|------------|
-| [**🎯 Completo**](https://github.com/tuusuario/html5-boilerplate-modular/releases/download/v2.0.0/complete.zip) | Todo incluido | ~15KB | HTML + CSS + JS + Assets + PWA | Sitios web completos |
-| [**📱 Mínimo**](https://github.com/tuusuario/html5-boilerplate-modular/releases/download/v2.0.0/minimal.zip) | Ultra-liviano | <8KB | HTML básico + CSS esencial + JS mínimo | Landing pages, prototipos |
-
-### 🔧 Para Proyectos Existentes
-| Descarga | Descripción | Sin Conflictos | Ideal para |
-|----------|-------------|----------------|------------|
-| [**📄 Solo HTML**](https://github.com/tuusuario/html5-boilerplate-modular/releases/download/v2.0.0/html-only.zip) | Componentes semánticos | ✅ | Proyectos con CSS propio |
-| [**🎨 Solo CSS**](https://github.com/tuusuario/html5-boilerplate-modular/releases/download/v2.0.0/css-only.zip) | Sistema de estilos modular | ✅ | Proyectos con HTML existente |
-| [**⚡ Solo JavaScript**](https://github.com/tuusuario/html5-boilerplate-modular/releases/download/v2.0.0/js-only.zip) | Utilidades y funcionalidades | ✅ | Agregar interactividad |
-| [**🛠️ Archivos Individuales**](https://github.com/tuusuario/html5-boilerplate-modular/releases/download/v2.0.0/individual.zip) | Instalador inteligente | ✅ | Máximo control |
-
-### 🧩 Componentes Individuales
-| Componente | Descripción | Conversión |
-|------------|-------------|------------|
-| [📋 Header + Nav](releases/individual/header.html) | Cabecera con navegación responsive | → React/Vue/Angular |
-| [🏠 Main Content](releases/individual/main-content.html) | Secciones de contenido principal | → Layouts de páginas |
-| [📝 Sidebar](releases/individual/aside.html) | Barra lateral con widgets | → Componentes laterales |
-| [🦶 Footer](releases/individual/footer.html) | Pie de página completo | → Footer universal |
-
----
-
-## 🚀 **Instalación Súper Rápida**
-
-### Opción 1: Proyecto Nuevo (30 segundos)
+### 🎯 Versión Completa (124KB)
+**Ideal para**: Sitios web completos, aplicaciones web, proyectos nuevos
 ```bash
-# Un comando y listo
-curl -L https://github.com/tuusuario/html5-boilerplate-modular/releases/download/v2.0.0/complete.zip -o proyecto.zip && unzip proyecto.zip && cd complete && open index.html
+cp -r releases/complete mi-proyecto-web
+cd mi-proyecto-web
+open index.html
 ```
 
-### 🆕 Opción 2: Instalador Inteligente (Recomendado para proyectos existentes)
+**Incluye**:
+- HTML5 semántico completo (8KB)
+- CSS modular: `variables.css`, `reset.css`, `layout.css`, `components.css`, `responsive.css` (24KB)
+- JavaScript: `main.js` (17KB) + `utils.js` (14KB)
+- Assets SVG profesionales
+- PWA ready con `manifest.json`
+
+### ⚡ Versión Mínima (60KB)
+**Ideal para**: Landing pages, prototipos, proyectos simples
 ```bash
-# Analiza tu proyecto y recomienda qué instalar
-bash <(curl -s https://raw.githubusercontent.com/tuusuario/html5-boilerplate-modular/main/releases/individual/smart-install.sh)
+cp -r releases/minimal mi-landing-page
+cd mi-landing-page
+open index.html
 ```
 
-### Opción 3: Versión Mínima
+**Incluye**:
+- HTML5 esencial (3KB)
+- CSS optimizado: `variables.css`, `reset.css`, `minimal.css` (6KB)
+- JavaScript básico: `minimal.js` (1KB)
+- Assets esenciales
+
+### 📄 Solo HTML (36KB)
+**Ideal para**: Proyectos existentes, componentes reutilizables
 ```bash
-# Solo 8KB - Perfecto para landing pages
-curl -L https://github.com/tuusuario/html5-boilerplate-modular/releases/download/v2.0.0/minimal.zip -o minimal.zip && unzip minimal.zip
+cp -r releases/html-only mi-componentes
+cd mi-componentes
 ```
 
-### Opción 4: Solo lo que Necesitas
+**Incluye**:
+- Componentes HTML modulares
+- `header.html`, `main-content.html`, `aside.html`, `footer.html`
+- `base-structure.html` - Estructura completa
+- Sin CSS ni JS (para integrar con tu stack)
+
+## 🚀 Instalación Rápida
+
+### Para Proyecto Nuevo
 ```bash
-# Variables CSS únicamente
-curl -O https://raw.githubusercontent.com/tuusuario/html5-boilerplate-modular/main/releases/individual/boilerplate-variables.css
+# 1. Clona el repositorio
+git clone https://github.com/Franklin-Andres-Rodriguez/HTML5-Boilerplate-Modular.git
 
-# Utilidades JavaScript únicamente  
-curl -O https://raw.githubusercontent.com/tuusuario/html5-boilerplate-modular/main/releases/individual/boilerplate-utils.js
+# 2. Elige tu versión y crea tu proyecto
+cp -r HTML5-Boilerplate-Modular/releases/complete mi-proyecto-genial
+cd mi-proyecto-genial
+
+# 3. ¡Abre en el navegador!
+open index.html
 ```
 
----
-
-## 🔧 **Para Proyectos Existentes - Sin Romper Nada**
-
-### 🛡️ **Garantías de Cero Conflictos**
-
-- ✅ **Archivos con prefijo** - `boilerplate-*.css`, `boilerplate-*.js`
-- ✅ **Instalador inteligente** - Detecta qué ya tienes y qué necesitas
-- ✅ **Sin sobrescribir** - Jamás toca archivos existentes
-- ✅ **Fácil remoción** - Un archivo = una funcionalidad
-- ✅ **Framework-friendly** - Compatible con React, Vue, Angular, Svelte
-
-### 🤖 **Instalador Inteligente en Acción**
-
+### Para Proyecto Existente
 ```bash
-# El instalador detecta automáticamente:
-🔍 Analizando tu proyecto existente...
+# Solo componentes HTML (sin conflictos)
+cp -r HTML5-Boilerplate-Modular/releases/html-only/components mi-proyecto-existente/
 
-📋 Detectado en tu proyecto:
-  ✅ Carpeta CSS existente
-  ✅ Framework React detectado
-  ✅ Repositorio Git detectado
+# Solo CSS modular
+cp -r HTML5-Boilerplate-Modular/releases/complete/css mi-proyecto-existente/
 
-💡 Recomendación personalizada:
-  → Framework React detectado → Instalando CSS + JS
-  → Los componentes HTML puedes convertirlos a React
-
-🎯 Instalando solo lo necesario...
-  ✅ boilerplate-variables.css agregado
-  ✅ boilerplate-utils.js agregado
-  
-🎉 ¡Sin conflictos con tu código existente!
+# Solo JavaScript utilities
+cp -r HTML5-Boilerplate-Modular/releases/complete/js mi-proyecto-existente/
 ```
 
-### 📋 **Casos de Uso Reales**
-
-#### ✅ **Proyecto React/Vue Existente**
-```bash
-# El instalador detecta el framework y solo agrega:
-css/boilerplate-variables.css    # Variables de diseño
-js/boilerplate-utils.js          # Utilidades reutilizables
-# Los componentes HTML los puedes convertir a JSX/Vue
-```
-
-#### ✅ **Sitio WordPress/PHP Existente** 
-```bash
-# Solo agrega estilos modernos sin tocar tu código:
-wp-content/themes/mi-theme/css/boilerplate-variables.css
-wp-content/themes/mi-theme/js/boilerplate-utils.js
-```
-
-#### ✅ **Aplicación Django/Flask**
-```bash
-# Integración limpia en tu estructura existente:
-static/css/boilerplate-variables.css
-static/js/boilerplate-utils.js
-templates/components/header.html    # Para convertir a Jinja2
-```
-
----
-
-## 📁 **Estructura del Proyecto**
+## 📁 Estructura de Archivos
 
 ```
-html5-boilerplate-modular/
-├── 📄 index.html              # Página principal completa
-├── 📱 manifest.json           # PWA ready
-├── 🎨 css/
-│   ├── variables.css          # 🆕 Sistema de variables CSS mejorado
-│   ├── reset.css             # Reset moderno
-│   ├── layout.css            # Estructura y grid system
-│   ├── components.css        # Componentes reutilizables
-│   └── responsive.css        # Media queries mobile-first
-├── ⚡ js/
-│   ├── utils.js              # 🆕 Utilidades expandidas (validación, HTTP, DOM)
-│   └── main.js               # Funcionalidad principal + accesibilidad
-├── 🖼️ img/                    # Assets profesionales SVG
-├── 📋 components/             # Componentes HTML modulares
-│   ├── header.html           # Cabecera + navegación responsive
-│   ├── main-content.html     # Contenido principal semántico
-│   ├── aside.html            # Sidebar con widgets
-│   └── footer.html           # Footer completo
-└── 🔧 tools/                  # Build system v2.0
-    ├── build.js              # 🆕 Generador de 6 versiones diferentes
-    └── create-assets.js      # Generador de assets SVG
+HTML5-Boilerplate-Modular/
+├── 📦 releases/                 # Versiones compiladas listas para usar
+│   ├── complete/               # 🎯 Versión completa (124KB)
+│   │   ├── index.html          # Página principal (8KB)
+│   │   ├── css/
+│   │   │   ├── variables.css   # Variables CSS personalizables
+│   │   │   ├── reset.css       # Reset moderno
+│   │   │   ├── layout.css      # Sistema de layout (5KB)
+│   │   │   ├── components.css  # Componentes reutilizables (7KB)
+│   │   │   └── responsive.css  # Media queries mobile-first (7KB)
+│   │   ├── js/
+│   │   │   ├── main.js         # Funcionalidad principal (17KB)
+│   │   │   └── utils.js        # Utilidades JavaScript (14KB)
+│   │   ├── img/                # Assets SVG profesionales
+│   │   └── manifest.json       # PWA ready
+│   ├── minimal/                # ⚡ Versión mínima (60KB)
+│   │   ├── index.html          # Página optimizada (3KB)
+│   │   ├── css/
+│   │   │   ├── variables.css   # Variables esenciales
+│   │   │   ├── reset.css       # Reset básico
+│   │   │   └── minimal.css     # Estilos mínimos (1KB)
+│   │   └── js/
+│   │       └── minimal.js      # JavaScript básico (1KB)
+│   └── html-only/              # 📄 Solo HTML (36KB)
+│       ├── index.html          # Estructura base
+│       └── components/         # Componentes modulares
+├── 🧩 components/              # Código fuente de componentes
+├── 🎨 styles/                  # Código fuente CSS
+├── ⚡ scripts/                 # Código fuente JavaScript
+├── 🔧 tools/                   # Sistema de build
+└── 📚 docs/                    # Documentación
 ```
 
----
+## 🎨 Personalización Súper Fácil
 
-## 🎨 **Personalización Súper Fácil**
-
-### Variables CSS - Cambiar Look en 30 segundos
+### Variables CSS - Cambiar Look Completo
+Edita `css/variables.css`:
 ```css
 :root {
     /* 🎯 Cambia estos valores y todo se actualiza automáticamente */
-    --primary-color: #007bff;      /* Tu color de marca */
-    --font-family-primary: 'Inter'; /* Tu fuente preferida */
-    --container-max-width: 1200px;  /* Ancho máximo de contenido */
-    --border-radius: 8px;           /* Redondez de elementos */
+    --primary-color: #007bff;        /* Tu color de marca */
+    --secondary-color: #6c757d;      /* Color secundario */
+    --font-family-primary: 'Inter';  /* Tu fuente preferida */
+    --container-max-width: 1200px;   /* Ancho máximo de contenido */
+    --border-radius: 8px;            /* Redondez de elementos */
+    --spacing-unit: 1rem;            /* Unidad base de espaciado */
 }
 ```
 
 ### JavaScript API - Utilidades Incluidas
 ```javascript
-// 🆕 API expandida con nuevas utilidades
+// Utilidades disponibles en utils.js
 const utils = BoilerplateUtils;
 
 // Validación instantánea
-utils.validation.isEmail('test@example.com')        // true
-utils.validation.isPhone('+1-234-567-8900')        // true
+utils.validation.isEmail('test@example.com');        // true
+utils.validation.isPhone('+1-234-567-8900');        // true
 
-// HTTP requests simples
+// HTTP requests simples  
 const data = await utils.http.get('/api/users');
 const result = await utils.http.post('/api/login', {user: 'john'});
 
-// Manipulación DOM fácil  
+// Manipulación DOM fácil
 const element = utils.dom.$('#mi-elemento');
 utils.dom.addClass(element, 'active');
 
 // Device detection
-utils.device.isMobile()     // true/false
-utils.device.isTablet()     // true/false
-
-// Storage helpers
-utils.storage.setLocal('user', {name: 'John'});
-const user = utils.storage.getLocal('user');
+utils.device.isMobile();     // true/false
+utils.device.isTablet();     // true/false
 ```
 
----
+## 🛠️ Sistema de Build
 
-## 🌐 **Demo en Vivo y Compatibilidad**
+### Scripts NPM Disponibles
+```bash
+# Construir todas las versiones
+npm run build
 
-### 🎮 **Ver Demo Funcionando**
-- **[Demo Completo](https://tuusuario.github.io/html5-boilerplate-modular)** - Versión completa en acción
-- **[Demo Mínimo](https://tuusuario.github.io/html5-boilerplate-modular/minimal)** - Versión ultra-liviana
-
-### 🌍 **Compatibilidad de Navegadores**
-| Navegador | Soporte | Características |
-|-----------|---------|----------------|
-| Chrome 85+ | ✅ **Completo** | Todas las funcionalidades + PWA |
-| Firefox 78+ | ✅ **Completo** | Todas las funcionalidades + PWA |
-| Safari 14+ | ✅ **Completo** | Todas las funcionalidades |
-| Edge 85+ | ✅ **Completo** | Todas las funcionalidades + PWA |
-| IE11 | ⚠️ **Básico** | Con polyfills, funcionalidad limitada |
-
----
-
-## 📊 **Performance y Métricas**
-
-### ⚡ **Core Web Vitals Optimizado**
-- **LCP (Largest Contentful Paint)**: <1.2s ✅
-- **FID (First Input Delay)**: <100ms ✅  
-- **CLS (Cumulative Layout Shift)**: <0.1 ✅
-- **Lighthouse Score**: 100/100 🎯
-
-### 📈 **Tamaños por Versión**
-```
-📦 Completo:    ~15KB (gzipped) - HTML + CSS + JS + Assets + PWA
-📱 Mínimo:      ~8KB  (gzipped) - Esenciales optimizados  
-🎨 Solo CSS:    ~6KB  (gzipped) - Sistema completo de estilos
-⚡ Solo JS:     ~4KB  (gzipped) - Todas las utilidades
-📄 Solo HTML:  ~2KB  (gzipped) - Componentes semánticos
+# Construir versiones específicas
+npm run build:html    # Solo HTML
+npm run build:css     # Solo CSS  
+npm run build:js      # Solo JavaScript
+npm run build:all     # Todas las versiones
 ```
 
-### 🚀 **Características de Performance**
-- 🖼️ **Lazy Loading** automático de imágenes
-- 🔗 **DNS Prefetch** para recursos externos
-- 📱 **Service Worker** ready (PWA)
-- 🗜️ **Compresión** optimizada de assets
-- ⚡ **Critical CSS** inline para first paint rápido
+### Desarrollo
+```bash
+# Instalar dependencias
+npm install
 
----
+# Construir proyecto
+npm run build
 
-## ♿ **Accesibilidad (WCAG 2.1 AA)**
+# Los archivos compilados aparecen en releases/
+```
+
+## 📊 Performance y Métricas
+
+### ⚡ Tamaños Reales
+- **🎯 Completo**: 124KB (HTML + CSS + JS + Assets + PWA)
+- **⚡ Mínimo**: 60KB (Esenciales ultra-optimizados)  
+- **📄 Solo HTML**: 36KB (Componentes puros)
+
+### 🎯 Core Web Vitals Optimizado
+- **LCP** (Largest Contentful Paint): <1.2s ✅
+- **FID** (First Input Delay): <100ms ✅
+- **CLS** (Cumulative Layout Shift): <0.1 ✅
+
+### 🚀 Características de Performance
+- 📱 Service Worker ready (PWA)
+- 🔗 DNS Prefetch para recursos externos
+- ⚡ Critical CSS inline para first paint rápido
+- 🗜️ Assets optimizados
+
+## ♿ Accesibilidad (WCAG 2.1 AA)
 
 - ✅ **Screen Reader** totalmente compatible
 - ✅ **Keyboard Navigation** completa - Tab, Enter, Escape, Arrow keys
 - ✅ **Focus Management** inteligente con indicadores visuales
-- ✅ **ARIA Labels** semánticos en todos los componentes interactivos
+- ✅ **ARIA Labels** semánticos en todos los componentes
 - ✅ **Skip Links** para navegación rápida
-- ✅ **Color Contrast** 4.5:1 mínimo en todos los elementos
+- ✅ **Color Contrast** 4.5:1 mínimo
 - ✅ **Reduced Motion** respeta preferencias del usuario
-- ✅ **High Contrast** mode compatible
 
----
+## 🌍 Compatibilidad de Navegadores
 
-## 🛠️ **Para Desarrolladores**
+| Navegador | Soporte | Características |
+|-----------|---------|----------------|
+| Chrome 85+ | ✅ Completo | Todas + PWA |
+| Firefox 78+ | ✅ Completo | Todas + PWA |
+| Safari 14+ | ✅ Completo | Todas las funcionalidades |
+| Edge 85+ | ✅ Completo | Todas + PWA |
+| IE11 | ⚠️ Básico | Con polyfills limitados |
 
-### 🔨 **Build System v2.0**
+## 📋 Casos de Uso
+
+### ✅ Sitio Web Nuevo
 ```bash
-# Generar todas las versiones (6 diferentes)
-npm run build
-
-# Versiones específicas
-npm run build:complete    # Versión completa
-npm run build:minimal     # 🆕 Versión ultra-mínima  
-npm run build:individual  # 🆕 Archivos individuales + instalador
-npm run build:css         # Solo CSS
-npm run build:js          # Solo JavaScript
-npm run build:html        # Solo HTML
-
-# 🆕 Crear assets profesionales
-npm run create-assets
+cp -r releases/complete mi-sitio-web
+cd mi-sitio-web
+# Personalizar variables CSS
+# Editar contenido en index.html
+# ¡Listo!
 ```
 
-### 🧪 **Testing y Validación**
+### ✅ Landing Page Ultra-Rápida  
 ```bash
-# Verificar que todo funciona
-npm run test
-
-# Validar HTML
-npm run validate:html
-
-# Verificar accesibilidad
-npm run test:a11y
-
-# Lighthouse CI
-npm run lighthouse
+cp -r releases/minimal mi-landing
+cd mi-landing
+# Solo 60KB - Carga instantánea
 ```
 
----
-
-## 🤝 **Contribuir**
-
-¡Las contribuciones son súper bienvenidas! Este proyecto crece con la comunidad.
-
-### 🐛 **Reportar Issues**
-- [**Bug Report**](https://github.com/tuusuario/html5-boilerplate-modular/issues/new?template=bug_report.md) - Algo no funciona
-- [**Feature Request**](https://github.com/tuusuario/html5-boilerplate-modular/issues/new?template=feature_request.md) - Ideas geniales
-- [**Question**](https://github.com/tuusuario/html5-boilerplate-modular/discussions) - Dudas y discusiones
-
-### 💻 **Contribuir Código**
-1. **Fork** el proyecto  
-2. **Branch**: `git checkout -b feature/nueva-funcionalidad`
-3. **Commit**: `git commit -m 'feat: agregar nueva funcionalidad'` (usando [Conventional Commits](https://www.conventionalcommits.org/))
-4. **Push**: `git push origin feature/nueva-funcionalidad`
-5. **Pull Request** con descripción detallada
-
-### 🏗️ **Setup de Desarrollo**
+### ✅ Proyecto React/Vue Existente
 ```bash
-git clone https://github.com/tuusuario/html5-boilerplate-modular.git
-cd html5-boilerplate-modular
+# Solo agrega estilos sin conflictos
+cp releases/complete/css mi-proyecto/src/styles/
+# Importar en tu componente principal
+```
+
+### ✅ WordPress/PHP Existente
+```bash
+# Integración limpia
+cp releases/complete/css wp-content/themes/mi-theme/css/
+cp releases/complete/js wp-content/themes/mi-theme/js/
+```
+
+## 🤝 Contribuir
+
+¡Las contribuciones son súper bienvenidas!
+
+### 🐛 Reportar Issues
+- [Bug Report](../../issues/new?template=bug_report.md) - Algo no funciona
+- [Feature Request](../../issues/new?template=feature_request.md) - Ideas geniales
+- [Question](../../discussions) - Dudas y discusiones
+
+### 💻 Contribuir Código
+1. Fork el proyecto
+2. Crea tu branch: `git checkout -b feature/nueva-funcionalidad`
+3. Commit: `git commit -m 'feat: agregar nueva funcionalidad'`
+4. Push: `git push origin feature/nueva-funcionalidad`  
+5. Pull Request con descripción detallada
+
+### 🏗️ Setup de Desarrollo
+```bash
+git clone https://github.com/Franklin-Andres-Rodriguez/HTML5-Boilerplate-Modular.git
+cd HTML5-Boilerplate-Modular
 npm install
-
-# Desarrollo
-npm run dev          # Watch mode para cambios
-npm run build        # Build todas las versiones
-npm run serve        # Servidor local de pruebas
+npm run build
 ```
 
----
+## 📚 Documentación
 
-## 📚 **Documentación Extendida**
+- 📖 **Guía de Instalación** - Este README
+- 🎨 **Personalización** - Editar variables CSS
+- ⚡ **Performance** - Optimizaciones incluidas
+- ♿ **Accesibilidad** - WCAG 2.1 compliance
+- 🔧 **Build System** - Comandos npm disponibles
 
-- [📖 **Guía de Instalación**](docs/installation-guide.md) - Setup paso a paso
-- [🎨 **Personalización Avanzada**](docs/customization-guide.md) - Theming y variables  
-- [⚡ **Performance Guide**](docs/performance-guide.md) - Optimización avanzada
-- [♿ **Accesibilidad**](docs/accessibility-guide.md) - WCAG 2.1 compliance
-- [🔧 **JavaScript API**](docs/javascript-api.md) - Todas las utilidades
-- [🚀 **Migration Guide**](docs/migration-guide.md) - Desde otros boilerplates
+## 🎉 Showcase
 
----
+### 🌟 Proyectos Construidos con Este Boilerplate
+- ¿Tu proyecto? - [Compártelo con nosotros](../../discussions)
 
-## 🎉 **Showcase y Comunidad**
+### 💬 Comunidad
+- [Discussions](../../discussions) - Preguntas y respuestas
+- [Issues](../../issues) - Bugs y sugerencias
 
-### 🌟 **Sitios Construidos con Este Boilerplate**
-- [Ejemplo 1](#) - E-commerce moderno
-- [Ejemplo 2](#) - Blog personal  
-- [Ejemplo 3](#) - Landing page corporativa
-- [¿Tu sitio?](#) - ¡Compártelo con nosotros!
+## 📄 Licencia
 
-### 💬 **Comunidad**
-- [**Discord**](#) - Chat en tiempo real
-- [**Discussions**](https://github.com/tuusuario/html5-boilerplate-modular/discussions) - Preguntas y respuestas
-- [**Twitter**](#) - Actualizaciones y tips
+[MIT License](LICENSE) - Úsalo libremente en proyectos personales y comerciales.
 
----
-
-## 📄 **Licencia**
-
-MIT License - Úsalo libremente en proyectos personales y comerciales.
-
-Ver [LICENSE](LICENSE) para detalles completos.
-
----
-
-## 🙏 **Agradecimientos**
+## 🙏 Agradecimientos
 
 - [HTML5 Boilerplate](https://html5boilerplate.com/) - Inspiración original
 - [Normalize.css](https://necolas.github.io/normalize.css/) - Base de reset CSS
 - [MDN Web Docs](https://developer.mozilla.org/) - Documentación de referencia
-- **Todos los contribuidores** que han hecho este proyecto mejor
+- Todos los contribuidores que hacen este proyecto mejor
 
 ---
 
-## 🔗 **Enlaces Rápidos**
+## 🚀 Empezar Ahora
 
-- 🏠 **[Repositorio](https://github.com/tuusuario/html5-boilerplate-modular)**
-- 🎮 **[Demo en Vivo](https://tuusuario.github.io/html5-boilerplate-modular)**
-- 📦 **[Releases](https://github.com/tuusuario/html5-boilerplate-modular/releases)**
-- 📖 **[Documentación](docs/)**
-- 💬 **[Soporte](https://github.com/tuusuario/html5-boilerplate-modular/discussions)**
+```bash
+# Proyecto completo (recomendado)
+cp -r releases/complete mi-proyecto-genial && cd mi-proyecto-genial && open index.html
+
+# Landing page rápida  
+cp -r releases/minimal mi-landing-page && cd mi-landing-page && open index.html
+
+# Solo componentes para proyecto existente
+cp -r releases/html-only/components mi-proyecto-existente/
+```
+
+⭐ **Si te fue útil, dale una estrella al repo** ⭐
 
 ---
 
-<div align="center">
-  <h3>⭐ Si te fue útil, dale una estrella al repo ⭐</h3>
-  
-  <p>
-    <a href="https://github.com/tuusuario/html5-boilerplate-modular/releases/download/v2.0.0/complete.zip">
-      <img src="https://img.shields.io/badge/⬇️_Descargar_Ahora-Complete_v2.0-success.svg?style=for-the-badge" alt="Descargar Ahora">
-    </a>
-  </p>
-  
-  <p>
-    <a href="https://github.com/tuusuario/html5-boilerplate-modular/releases/download/v2.0.0/minimal.zip">
-      <img src="https://img.shields.io/badge/📱_Versión_Mínima-8KB-blue.svg?style=for-the-badge" alt="Versión Mínima">
-    </a>
-  </p>
+**Hecho con ❤️ para la comunidad de desarrolladores**
 
-  <p><strong>Hecho con ❤️ para la comunidad de desarrolladores</strong></p>
-  
-  <p><em>¿Problemas? ¿Preguntas? ¿Ideas geniales?</em><br>
-  <a href="https://github.com/tuusuario/html5-boilerplate-modular/discussions">💬 Únete a la conversación</a></p>
-</div>
+¿Problemas? ¿Preguntas? ¿Ideas geniales?
+💬 [Únete a la conversación](../../discussions)

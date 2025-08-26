@@ -1,0 +1,51 @@
+<!-- Contenido Principal -->
+<main id="main-content" role="main" class="main-content">
+    <!-- Sección Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+            <h2 id="hero-title">{{HERO_TITLE}}</h2>
+            <p class="hero-subtitle">{{HERO_SUBTITLE}}</p>
+            <button class="cta-button">{{CTA_TEXT}}</button>
+        </div>
+    </section>
+
+    <!-- Sección de Contenido -->
+    <section class="content-section" aria-labelledby="content-title">
+        <div class="container">
+            <h2 id="content-title">Contenido Principal</h2>
+            
+            <!-- Artículos -->
+            <article class="main-article">
+                <header>
+                    <h3>Título del Artículo</h3>
+                    <time datetime="{{CURRENT_DATE}}">{{FORMATTED_DATE}}</time>
+                </header>
+                <p>Contenido del artículo...</p>
+                <footer>
+                    <p>Autor: <span class="author">{{AUTHOR_NAME}}</span></p>
+                </footer>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section class="services" aria-labelledby="services-title">
+        <div class="container">
+            <h2 id="services-title">Nuestros Servicios</h2>
+            <div class="services-grid">
+                <article class="service-item">
+                    <h3>Servicio 1</h3>
+                    <p>Descripción del servicio...</p>
+                </article>
+                <article class="service-item">
+                    <h3>Servicio 2</h3>
+                    <p>Descripción del servicio...</p>
+                </article>
+                <article class="service-item">
+                    <h3>Servicio 3</h3>
+                    <p>Descripción del servicio...</p>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>

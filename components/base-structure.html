@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{PROJECT_DESCRIPTION}}">
+    <meta name="keywords" content="{{PROJECT_KEYWORDS}}">
+    <meta name="author" content="{{PROJECT_AUTHOR}}">
+    
+    <!-- SEO y Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{PROJECT_NAME}}">
+    <meta property="og:description" content="{{PROJECT_DESCRIPTION}}">
+    <meta property="og:image" content="{{PROJECT_URL}}/img/og-image.svg">
+    <meta property="og:url" content="{{PROJECT_URL}}">
+    <meta property="og:site_name" content="{{PROJECT_NAME}}">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{PROJECT_NAME}}">
+    <meta name="twitter:description" content="{{PROJECT_DESCRIPTION}}">
+    <meta name="twitter:image" content="{{PROJECT_URL}}/img/og-image.svg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{PROJECT_URL}}">
+    
+    <!-- Favicon y App Icons -->
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.svg">
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#007bff">
+    <meta name="msapplication-TileColor" content="#007bff">
+    
+    <!-- Preconnect para mejorar performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- CSS Placeholder -->
+{{CSS_IMPORTS}}
+    
+    <title>{{PROJECT_NAME}}</title>
+</head>
+<body>
+    <!-- Skip Navigation para accesibilidad -->
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+    
+    <!-- Header Component -->
+{{HEADER_COMPONENT}}
+    
+    <!-- Main Content Component -->
+{{MAIN_COMPONENT}}
+    
+    <!-- Sidebar Component -->
+{{ASIDE_COMPONENT}}
+    
+    <!-- Footer Component -->  
+{{FOOTER_COMPONENT}}
+    
+    <!-- JavaScript Placeholder -->
+{{JS_IMPORTS}}
+</body>
+</html>

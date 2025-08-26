@@ -1,0 +1,405 @@
+/* ==========================================================================
+   Responsive Design - Media Queries
+   ========================================================================== */
+
+/* Large Desktop */
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+    
+    .hero h2 {
+        font-size: 4rem;
+    }
+    
+    .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Desktop */
+@media screen and (max-width: 1199px) {
+    :root {
+        --container-max-width: 960px;
+    }
+    
+    .hero h2 {
+        font-size: var(--font-size-4xl);
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 991px) {
+    :root {
+        --container-max-width: 720px;
+        --spacing-3xl: 3rem;
+    }
+    
+    .main-header .container {
+        flex-direction: column;
+        gap: var(--spacing-md);
+        align-items: stretch;
+    }
+    
+    .main-nav {
+        justify-content: center;
+    }
+    
+    .hero {
+        padding: var(--spacing-2xl) 0;
+    }
+    
+    .hero h2 {
+        font-size: var(--font-size-3xl);
+    }
+    
+    .hero-subtitle {
+        font-size: var(--font-size-lg);
+    }
+    
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-xl);
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+}
+
+/* Tablet Portrait */
+@media screen and (max-width: 768px) {
+    :root {
+        --container-max-width: 540px;
+        --container-padding: var(--spacing-md);
+        --spacing-2xl: 2rem;
+        --spacing-3xl: 2.5rem;
+    }
+    
+    /* Header Responsive */
+    .main-header {
+        padding: var(--spacing-sm) 0;
+    }
+    
+    .main-header .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo h1 {
+        font-size: var(--font-size-lg);
+    }
+    
+    /* Navigation Mobile */
+    .nav-toggle {
+        display: block;
+    }
+    
+    .nav-list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: var(--dark-color);
+        flex-direction: column;
+        padding: var(--spacing-md);
+        box-shadow: var(--shadow-lg);
+        border-top: 1px solid var(--gray-600);
+    }
+    
+    .nav-list.active {
+        display: flex;
+    }
+    
+    .nav-list li {
+        margin: 0;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: var(--spacing-md);
+        text-align: center;
+        border-bottom: 1px solid var(--gray-600);
+    }
+    
+    .nav-link:last-child {
+        border-bottom: none;
+    }
+    
+    /* Hero Responsive */
+    .hero {
+        padding: var(--spacing-xl) 0;
+    }
+    
+    .hero h2 {
+        font-size: var(--font-size-2xl);
+        line-height: 1.2;
+    }
+    
+    .hero-subtitle {
+        font-size: var(--font-size-base);
+        margin-bottom: var(--spacing-xl);
+    }
+    
+    /* Content Sections */
+    .content-section,
+    .services {
+        padding: var(--spacing-2xl) 0;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+    
+    /* Service Items */
+    .service-item {
+        padding: var(--spacing-xl);
+    }
+    
+    /* Articles */
+    .main-article h3,
+    .secondary-article h3 {
+        font-size: var(--font-size-xl);
+    }
+    
+    /* Sidebar */
+    .sidebar {
+        padding: var(--spacing-xl) 0;
+    }
+    
+    .widget {
+        padding: var(--spacing-lg);
+    }
+    
+    /* Footer */
+    .main-footer {
+        padding: var(--spacing-2xl) 0 var(--spacing-lg);
+    }
+    
+    .footer-content {
+        gap: var(--spacing-xl);
+    }
+    
+    /* Forms */
+    .newsletter-form {
+        gap: var(--spacing-sm);
+    }
+}
+
+/* Mobile Large */
+@media screen and (max-width: 576px) {
+    :root {
+        --container-padding: var(--spacing-sm);
+        --spacing-xl: 1.5rem;
+        --spacing-2xl: 2rem;
+        --spacing-3xl: 2rem;
+    }
+    
+    .container {
+        padding: 0 var(--spacing-sm);
+    }
+    
+    /* Header */
+    .logo h1 {
+        font-size: var(--font-size-base);
+    }
+    
+    /* Hero */
+    .hero {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .hero h2 {
+        font-size: var(--font-size-xl);
+    }
+    
+    .hero-subtitle {
+        font-size: var(--font-size-sm);
+    }
+    
+    .cta-button {
+        padding: var(--spacing-sm) var(--spacing-lg);
+        font-size: var(--font-size-base);
+    }
+    
+    /* Content */
+    .content-section,
+    .services,
+    .sidebar {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    /* Widgets */
+    .widget {
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-lg);
+    }
+    
+    /* Forms */
+    .newsletter-form input,
+    .newsletter-form button {
+        padding: var(--spacing-sm) var(--spacing-md);
+    }
+    
+    /* Footer */
+    .main-footer {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .footer-content {
+        gap: var(--spacing-lg);
+    }
+    
+    .social-links a {
+        width: 36px;
+        height: 36px;
+        font-size: var(--font-size-base);
+    }
+    
+    /* Typography Adjustments */
+    h1 { font-size: var(--font-size-2xl); }
+    h2 { font-size: var(--font-size-xl); }
+    h3 { font-size: var(--font-size-lg); }
+    h4 { font-size: var(--font-size-base); }
+    
+    /* Utility Responsive */
+    .text-center-mobile { text-align: center; }
+    .text-left-mobile { text-align: left; }
+}
+
+/* Mobile Small */
+@media screen and (max-width: 375px) {
+    :root {
+        --container-padding: 12px;
+    }
+    
+    .hero h2 {
+        font-size: var(--font-size-lg);
+    }
+    
+    .hero-subtitle {
+        font-size: var(--font-size-xs);
+    }
+    
+    .service-item {
+        padding: var(--spacing-md);
+    }
+    
+    .widget {
+        padding: var(--spacing-sm);
+    }
+    
+    .social-links a {
+        width: 32px;
+        height: 32px;
+        font-size: var(--font-size-sm);
+    }
+}
+
+/* Print Styles */
+@media print {
+    * {
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    
+    .main-header,
+    .main-nav,
+    .sidebar,
+    .nav-toggle,
+    .social-links,
+    .cta-button,
+    .newsletter-form {
+        display: none !important;
+    }
+    
+    .main-content {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+    
+    img {
+        max-width: 100% !important;
+    }
+    
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    :root {
+        --primary-color: #0000ff;
+        --secondary-color: #000000;
+        --success-color: #008000;
+        --danger-color: #ff0000;
+        --warning-color: #ff8800;
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus {
+        outline: 2px solid currentColor;
+    }
+    
+    .cta-button,
+    .btn {
+        border: 2px solid currentColor;
+    }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .service-item:hover {
+        transform: none;
+    }
+    
+    .cta-button:hover,
+    .btn:hover {
+        transform: none;
+    }
+    
+    .social-links a:hover {
+        transform: none;
+    }
+}

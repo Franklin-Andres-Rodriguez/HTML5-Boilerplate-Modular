@@ -1,0 +1,39 @@
+<!-- Sidebar/Aside -->
+<aside role="complementary" aria-labelledby="sidebar-title" class="sidebar">
+    <div class="container">
+        <h2 id="sidebar-title">Información Adicional</h2>
+        
+        <section class="widget">
+            <h3>Enlaces Útiles</h3>
+            <ul>
+                <li><a href="#link1">Enlace 1</a></li>
+                <li><a href="#link2">Enlace 2</a></li>
+                <li><a href="#link3">Enlace 3</a></li>
+            </ul>
+        </section>
+        
+        <section class="widget newsletter-widget">
+            <h3>Newsletter</h3>
+            <form class="newsletter-form" novalidate>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required aria-describedby="email-error">
+                <span id="email-error" class="error-message" role="alert"></span>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </section>
+        
+        <section class="widget">
+            <h3>Últimas Noticias</h3>
+            <ul class="news-list">
+                <li>
+                    <a href="#news1">Noticia importante 1</a>
+                    <time datetime="{{CURRENT_DATE}}">Hace 2 días</time>
+                </li>
+                <li>
+                    <a href="#news2">Noticia importante 2</a>
+                    <time datetime="{{CURRENT_DATE}}">Hace 1 semana</time>
+                </li>
+            </ul>
+        </section>
+    </div>
+</aside>

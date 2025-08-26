@@ -1,0 +1,25 @@
+{
+  "name": "html5-boilerplate-modular",
+  "version": "1.0.0",
+  "description": "Boilerplate HTML5 semántico modular con descarga selectiva",
+  "main": "index.js",
+  "scripts": {
+    "build": "node tools/build.js",
+    "build:html": "node tools/build.js --html-only",
+    "build:css": "node tools/build.js --css-only",
+    "build:js": "node tools/build.js --js-only",
+    "build:all": "npm run build && npm run build:html && npm run build:css && npm run build:js"
+  },
+  "keywords": [
+    "html5",
+    "boilerplate",
+    "semantic",
+    "responsive",
+    "modular"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "fs-extra": "^11.3.1"
+  }
+}

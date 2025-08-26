@@ -1,0 +1,30 @@
+{
+  "name": "HTML5 Boilerplate Modular",
+  "short_name": "HTML5 Boilerplate",
+  "description": "Un boilerplate moderno y semántico para proyectos web HTML5",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#007bff",
+  "orientation": "portrait-primary",
+  "categories": ["development", "productivity"],
+  "lang": "es",
+  "icons": [
+    {
+      "src": "img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/apple-touch-icon.svg", 
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "img/icon-512.svg",
+      "sizes": "512x512", 
+      "type": "image/svg+xml"
+    }
+  ]
+}
