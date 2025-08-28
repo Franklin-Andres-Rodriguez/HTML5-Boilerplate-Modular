@@ -1,174 +1,188 @@
 # 🚀 HTML5 Boilerplate Modular
 
-Un boilerplate moderno, semántico y completamente modular para proyectos web HTML5 con **descarga selectiva** real.
+A modern, semantic, and completely modular boilerplate for HTML5 web projects with **real selective download**.
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](package.json)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![HTML5](https://img.shields.io/badge/HTML5-ready-orange.svg)]()
-[![CSS3](https://img.shields.io/badge/CSS3-modular-blue.svg)]()
-[![JavaScript](https://img.shields.io/badge/JavaScript-utilities-yellow.svg)]()
+[![HTML5](https://img.shields.io/badge/HTML5-ready-orange.svg)](https://html5.org)
+[![CSS3](https://img.shields.io/badge/CSS3-modular-blue.svg)](https://www.w3.org/Style/CSS/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-utilities-yellow.svg)](https://developer.mozilla.org/docs/Web/JavaScript)
 
-> **Instalación • Uso • Personalización • Contribuir**
+> **Installation • Usage • Customization • Contributing**
 
-**Diseñado con descarga selectiva real** - toma solo lo que necesitas sin romper tu proyecto existente.
+**Designed with real selective download** - take only what you need without breaking your existing project.
 
-## 🎯 ¿Por qué usar este Boilerplate?
+## 🎯 Why Use This Boilerplate?
 
-Este boilerplate resuelve el problema real de tener que empezar desde cero cada proyecto web, proporcionando tres versiones optimizadas para diferentes necesidades:
+This boilerplate solves the real problem of having to start from scratch on every web project, providing three optimized versions for different needs:
 
-- **🎯 Versión Completa (124KB)** - Proyecto web completo con todas las funcionalidades
-- **⚡ Versión Mínima (60KB)** - Ultra-optimizada para landing pages rápidas  
-- **📄 Solo HTML (36KB)** - Componentes puros para integrar en proyectos existentes
+- **🎯 Complete Version (124KB)** - Full web project with all functionalities
+- **⚡ Minimal Version (60KB)** - Ultra-optimized for fast landing pages
+- **📄 HTML Only (36KB)** - Pure components to integrate into existing projects
 
-## ✨ Características Principales
+## ✨ Key Features
 
-- 🏗️ **HTML5 semántico completo** - `<header>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
-- 🎨 **Sistema CSS modular** - Variables personalizables, reset moderno, responsive mobile-first
-- 📱 **Diseño responsive** - Funciona perfecto en todos los dispositivos
-- ♿ **Accesibilidad integrada** - ARIA, skip links, keyboard navigation
-- 🔍 **SEO optimizado** - Meta tags, Open Graph, Twitter Cards
-- ⚡ **Performance** - Optimizado para Core Web Vitals
+- 🏗️ **Complete semantic HTML5** - `<header>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`
+- 🎨 **Modular CSS system** - Customizable variables, modern reset, mobile-first responsive
+- 📱 **Responsive design** - Works perfectly on all devices
+- ♿ **Built-in accessibility** - ARIA, skip links, keyboard navigation
+- 🔍 **SEO optimized** - Meta tags, Open Graph, Twitter Cards
+- ⚡ **Performance** - Optimized for Core Web Vitals
 - 🌐 **Cross-browser compatible** - Chrome, Firefox, Safari, Edge
-- 🔧 **100% modular** - Usa solo las partes que necesites
+- 🔧 **100% modular** - Use only the parts you need
 
-## 📦 Versiones Disponibles
+## 📦 Available Versions
 
-### 🎯 Versión Completa (124KB)
-**Ideal para**: Sitios web completos, aplicaciones web, proyectos nuevos
+### 🎯 Complete Version (124KB)
+
+**Ideal for**: Complete websites, web applications, new projects
+
 ```bash
-cp -r releases/complete mi-proyecto-web
-cd mi-proyecto-web
+cp -r releases/complete my-web-project
+cd my-web-project
 open index.html
 ```
 
-**Incluye**:
-- HTML5 semántico completo (8KB)
-- CSS modular: `variables.css`, `reset.css`, `layout.css`, `components.css`, `responsive.css` (24KB)
+**Includes**:
+
+- Complete semantic HTML5 (8KB)
+- Modular CSS: `variables.css`, `reset.css`, `layout.css`, `components.css`, `responsive.css` (24KB)
 - JavaScript: `main.js` (17KB) + `utils.js` (14KB)
-- Assets SVG profesionales
-- PWA ready con `manifest.json`
+- Professional SVG assets
+- PWA ready with `manifest.json`
 
-### ⚡ Versión Mínima (60KB)
-**Ideal para**: Landing pages, prototipos, proyectos simples
+### ⚡ Minimal Version (60KB)
+
+**Ideal for**: Landing pages, prototypes, simple projects
+
 ```bash
-cp -r releases/minimal mi-landing-page
-cd mi-landing-page
+cp -r releases/minimal my-landing-page
+cd my-landing-page
 open index.html
 ```
 
-**Incluye**:
-- HTML5 esencial (3KB)
-- CSS optimizado: `variables.css`, `reset.css`, `minimal.css` (6KB)
-- JavaScript básico: `minimal.js` (1KB)
-- Assets esenciales
+**Includes**:
 
-### 📄 Solo HTML (36KB)
-**Ideal para**: Proyectos existentes, componentes reutilizables
+- Essential HTML5 (3KB)
+- Optimized CSS: `variables.css`, `reset.css`, `minimal.css` (6KB)
+- Basic JavaScript: `minimal.js` (1KB)
+- Essential assets
+
+### 📄 HTML Only (36KB)
+
+**Ideal for**: Existing projects, reusable components
+
 ```bash
-cp -r releases/html-only mi-componentes
-cd mi-componentes
+cp -r releases/html-only my-components
+cd my-components
 ```
 
-**Incluye**:
-- Componentes HTML modulares
+**Includes**:
+
+- Modular HTML components
 - `header.html`, `main-content.html`, `aside.html`, `footer.html`
-- `base-structure.html` - Estructura completa
-- Sin CSS ni JS (para integrar con tu stack)
+- `base-structure.html` - Complete structure
+- No CSS or JS (to integrate with your stack)
 
-## 🚀 Instalación Rápida
+## 🚀 Quick Installation
 
-### Para Proyecto Nuevo
+### For New Project
+
 ```bash
-# 1. Clona el repositorio
+# 1. Clone the repository
 git clone https://github.com/Franklin-Andres-Rodriguez/HTML5-Boilerplate-Modular.git
 
-# 2. Elige tu versión y crea tu proyecto
-cp -r HTML5-Boilerplate-Modular/releases/complete mi-proyecto-genial
-cd mi-proyecto-genial
+# 2. Choose your version and create your project
+cp -r HTML5-Boilerplate-Modular/releases/complete my-awesome-project
+cd my-awesome-project
 
-# 3. ¡Abre en el navegador!
+# 3. Open in browser!
 open index.html
 ```
 
-### Para Proyecto Existente
+### For Existing Project
+
 ```bash
-# Solo componentes HTML (sin conflictos)
-cp -r HTML5-Boilerplate-Modular/releases/html-only/components mi-proyecto-existente/
+# HTML components only (no conflicts)
+cp -r HTML5-Boilerplate-Modular/releases/html-only/components my-existing-project/
 
-# Solo CSS modular
-cp -r HTML5-Boilerplate-Modular/releases/complete/css mi-proyecto-existente/
+# Modular CSS only
+cp -r HTML5-Boilerplate-Modular/releases/complete/css my-existing-project/
 
-# Solo JavaScript utilities
-cp -r HTML5-Boilerplate-Modular/releases/complete/js mi-proyecto-existente/
+# JavaScript utilities only
+cp -r HTML5-Boilerplate-Modular/releases/complete/js my-existing-project/
 ```
 
-## 📁 Estructura de Archivos
+## 📁 File Structure
 
-```
+```text
 HTML5-Boilerplate-Modular/
-├── 📦 releases/                 # Versiones compiladas listas para usar
-│   ├── complete/               # 🎯 Versión completa (124KB)
-│   │   ├── index.html          # Página principal (8KB)
+├── 📦 releases/                 # Compiled versions ready to use
+│   ├── complete/               # 🎯 Complete version (124KB)
+│   │   ├── index.html          # Main page (8KB)
 │   │   ├── css/
-│   │   │   ├── variables.css   # Variables CSS personalizables
-│   │   │   ├── reset.css       # Reset moderno
-│   │   │   ├── layout.css      # Sistema de layout (5KB)
-│   │   │   ├── components.css  # Componentes reutilizables (7KB)
-│   │   │   └── responsive.css  # Media queries mobile-first (7KB)
+│   │   │   ├── variables.css   # Customizable CSS variables
+│   │   │   ├── reset.css       # Modern reset
+│   │   │   ├── layout.css      # Layout system (5KB)
+│   │   │   ├── components.css  # Reusable components (7KB)
+│   │   │   └── responsive.css  # Mobile-first media queries (7KB)
 │   │   ├── js/
-│   │   │   ├── main.js         # Funcionalidad principal (17KB)
-│   │   │   └── utils.js        # Utilidades JavaScript (14KB)
-│   │   ├── img/                # Assets SVG profesionales
+│   │   │   ├── main.js         # Main functionality (17KB)
+│   │   │   └── utils.js        # JavaScript utilities (14KB)
+│   │   ├── img/                # Professional SVG assets
 │   │   └── manifest.json       # PWA ready
-│   ├── minimal/                # ⚡ Versión mínima (60KB)
-│   │   ├── index.html          # Página optimizada (3KB)
+│   ├── minimal/                # ⚡ Minimal version (60KB)
+│   │   ├── index.html          # Optimized page (3KB)
 │   │   ├── css/
-│   │   │   ├── variables.css   # Variables esenciales
-│   │   │   ├── reset.css       # Reset básico
-│   │   │   └── minimal.css     # Estilos mínimos (1KB)
+│   │   │   ├── variables.css   # Essential variables
+│   │   │   ├── reset.css       # Basic reset
+│   │   │   └── minimal.css     # Minimal styles (1KB)
 │   │   └── js/
-│   │       └── minimal.js      # JavaScript básico (1KB)
-│   └── html-only/              # 📄 Solo HTML (36KB)
-│       ├── index.html          # Estructura base
-│       └── components/         # Componentes modulares
-├── 🧩 components/              # Código fuente de componentes
-├── 🎨 styles/                  # Código fuente CSS
-├── ⚡ scripts/                 # Código fuente JavaScript
-├── 🔧 tools/                   # Sistema de build
-└── 📚 docs/                    # Documentación
+│   │       └── minimal.js      # Basic JavaScript (1KB)
+│   └── html-only/              # 📄 HTML only (36KB)
+│       ├── index.html          # Base structure
+│       └── components/         # Modular components
+├── 🧩 components/              # Component source code
+├── 🎨 styles/                  # CSS source code
+├── ⚡ scripts/                 # JavaScript source code
+├── 🔧 tools/                   # Build system
+└── 📚 docs/                    # Documentation
 ```
 
-## 🎨 Personalización Súper Fácil
+## 🎨 Super Easy Customization
 
-### Variables CSS - Cambiar Look Completo
-Edita `css/variables.css`:
+### CSS Variables - Change Complete Look
+
+Edit `css/variables.css`:
+
 ```css
 :root {
-    /* 🎯 Cambia estos valores y todo se actualiza automáticamente */
-    --primary-color: #007bff;        /* Tu color de marca */
-    --secondary-color: #6c757d;      /* Color secundario */
-    --font-family-primary: 'Inter';  /* Tu fuente preferida */
-    --container-max-width: 1200px;   /* Ancho máximo de contenido */
-    --border-radius: 8px;            /* Redondez de elementos */
-    --spacing-unit: 1rem;            /* Unidad base de espaciado */
+    /* 🎯 Change these values and everything updates automatically */
+    --primary-color: #007bff;        /* Your brand color */
+    --secondary-color: #6c757d;      /* Secondary color */
+    --font-family-primary: 'Inter';  /* Your preferred font */
+    --container-max-width: 1200px;   /* Maximum content width */
+    --border-radius: 8px;            /* Element roundness */
+    --spacing-unit: 1rem;            /* Base spacing unit */
 }
 ```
 
-### JavaScript API - Utilidades Incluidas
+### JavaScript API - Included Utilities
+
 ```javascript
-// Utilidades disponibles en utils.js
+// Available utilities in utils.js
 const utils = BoilerplateUtils;
 
-// Validación instantánea
+// Instant validation
 utils.validation.isEmail('test@example.com');        // true
 utils.validation.isPhone('+1-234-567-8900');        // true
 
-// HTTP requests simples  
+// Simple HTTP requests
 const data = await utils.http.get('/api/users');
 const result = await utils.http.post('/api/login', {user: 'john'});
 
-// Manipulación DOM fácil
-const element = utils.dom.$('#mi-elemento');
+// Easy DOM manipulation
+const element = utils.dom.$('#my-element');
 utils.dom.addClass(element, 'active');
 
 // Device detection
@@ -176,118 +190,130 @@ utils.device.isMobile();     // true/false
 utils.device.isTablet();     // true/false
 ```
 
-## 🛠️ Sistema de Build
+## 🛠️ Build System
 
-### Scripts NPM Disponibles
+### Available NPM Scripts
+
 ```bash
-# Construir todas las versiones
+# Build all versions
 npm run build
 
-# Construir versiones específicas
-npm run build:html    # Solo HTML
-npm run build:css     # Solo CSS  
-npm run build:js      # Solo JavaScript
-npm run build:all     # Todas las versiones
+# Build specific versions
+npm run build:html    # HTML only
+npm run build:css     # CSS only
+npm run build:js      # JavaScript only
+npm run build:all     # All versions
 ```
 
-### Desarrollo
+### Development
+
 ```bash
-# Instalar dependencias
+# Install dependencies
 npm install
 
-# Construir proyecto
+# Build project
 npm run build
 
-# Los archivos compilados aparecen en releases/
+# Compiled files appear in releases/
 ```
 
-## 📊 Performance y Métricas
+## 📊 Performance and Metrics
 
-### ⚡ Tamaños Reales
-- **🎯 Completo**: 124KB (HTML + CSS + JS + Assets + PWA)
-- **⚡ Mínimo**: 60KB (Esenciales ultra-optimizados)  
-- **📄 Solo HTML**: 36KB (Componentes puros)
+### ⚡ Real Sizes
 
-### 🎯 Core Web Vitals Optimizado
+- **🎯 Complete**: 124KB (HTML + CSS + JS + Assets + PWA)
+- **⚡ Minimal**: 60KB (Ultra-optimized essentials)
+- **📄 HTML Only**: 36KB (Pure components)
+
+### 🎯 Core Web Vitals Optimized
+
 - **LCP** (Largest Contentful Paint): <1.2s ✅
 - **FID** (First Input Delay): <100ms ✅
 - **CLS** (Cumulative Layout Shift): <0.1 ✅
 
-### 🚀 Características de Performance
+### 🚀 Performance Features
+
 - 📱 Service Worker ready (PWA)
-- 🔗 DNS Prefetch para recursos externos
-- ⚡ Critical CSS inline para first paint rápido
-- 🗜️ Assets optimizados
+- 🔗 DNS Prefetch for external resources
+- ⚡ Inline critical CSS for fast first paint
+- 🗜️ Optimized assets
 
-## ♿ Accesibilidad (WCAG 2.1 AA)
+## ♿ Accessibility (WCAG 2.1 AA)
 
-- ✅ **Screen Reader** totalmente compatible
-- ✅ **Keyboard Navigation** completa - Tab, Enter, Escape, Arrow keys
-- ✅ **Focus Management** inteligente con indicadores visuales
-- ✅ **ARIA Labels** semánticos en todos los componentes
-- ✅ **Skip Links** para navegación rápida
-- ✅ **Color Contrast** 4.5:1 mínimo
-- ✅ **Reduced Motion** respeta preferencias del usuario
+- ✅ **Screen Reader** fully compatible
+- ✅ **Keyboard Navigation** complete - Tab, Enter, Escape, Arrow keys
+- ✅ **Focus Management** intelligent with visual indicators
+- ✅ **ARIA Labels** semantic in all components
+- ✅ **Skip Links** for quick navigation
+- ✅ **Color Contrast** 4.5:1 minimum
+- ✅ **Reduced Motion** respects user preferences
 
-## 🌍 Compatibilidad de Navegadores
+## 🌍 Browser Compatibility
 
-| Navegador | Soporte | Características |
-|-----------|---------|----------------|
-| Chrome 85+ | ✅ Completo | Todas + PWA |
-| Firefox 78+ | ✅ Completo | Todas + PWA |
-| Safari 14+ | ✅ Completo | Todas las funcionalidades |
-| Edge 85+ | ✅ Completo | Todas + PWA |
-| IE11 | ⚠️ Básico | Con polyfills limitados |
+| Browser | Support | Features |
+|---------|---------|----------|
+| Chrome 85+ | ✅ Complete | All + PWA |
+| Firefox 78+ | ✅ Complete | All + PWA |
+| Safari 14+ | ✅ Complete | All features |
+| Edge 85+ | ✅ Complete | All + PWA |
+| IE11 | ⚠️ Basic | With limited polyfills |
 
-## 📋 Casos de Uso
+## 📋 Use Cases
 
-### ✅ Sitio Web Nuevo
+### ✅ New Website
+
 ```bash
-cp -r releases/complete mi-sitio-web
-cd mi-sitio-web
-# Personalizar variables CSS
-# Editar contenido en index.html
-# ¡Listo!
+cp -r releases/complete my-website
+cd my-website
+# Customize CSS variables
+# Edit content in index.html
+# Ready!
 ```
 
-### ✅ Landing Page Ultra-Rápida  
+### ✅ Ultra-Fast Landing Page
+
 ```bash
-cp -r releases/minimal mi-landing
-cd mi-landing
-# Solo 60KB - Carga instantánea
+cp -r releases/minimal my-landing
+cd my-landing
+# Only 60KB - Instant loading
 ```
 
-### ✅ Proyecto React/Vue Existente
+### ✅ Existing React/Vue Project
+
 ```bash
-# Solo agrega estilos sin conflictos
-cp releases/complete/css mi-proyecto/src/styles/
-# Importar en tu componente principal
+# Add styles only without conflicts
+cp releases/complete/css my-project/src/styles/
+# Import in your main component
 ```
 
-### ✅ WordPress/PHP Existente
+### ✅ Existing WordPress/PHP
+
 ```bash
-# Integración limpia
-cp releases/complete/css wp-content/themes/mi-theme/css/
-cp releases/complete/js wp-content/themes/mi-theme/js/
+# Clean integration
+cp releases/complete/css wp-content/themes/my-theme/css/
+cp releases/complete/js wp-content/themes/my-theme/js/
 ```
 
-## 🤝 Contribuir
+## 🤝 Contributing
 
-¡Las contribuciones son súper bienvenidas!
+Contributions are super welcome!
 
-### 🐛 Reportar Issues
-- [Bug Report](../../issues/new?template=bug_report.md) - Algo no funciona
-- [Feature Request](../../issues/new?template=feature_request.md) - Ideas geniales
-- [Question](../../discussions) - Dudas y discusiones
+### 🐛 Report Issues
 
-### 💻 Contribuir Código
-1. Fork el proyecto
-2. Crea tu branch: `git checkout -b feature/nueva-funcionalidad`
-3. Commit: `git commit -m 'feat: agregar nueva funcionalidad'`
-4. Push: `git push origin feature/nueva-funcionalidad`  
-5. Pull Request con descripción detallada
+- [Bug Report](../../issues/new?template=bug_report.md) - Something isn't working
+- [Feature Request](../../issues/new?template=feature_request.md) - Great ideas
+- [Question](../../discussions) - Questions and discussions
 
-### 🏗️ Setup de Desarrollo
+### 💻 Contributing Code
+
+1. Fork the project
+2. Create your branch: `git checkout -b feature/new-feature`
+3. Commit: `git commit -m 'feat: add new feature'`
+4. Push: `git push origin feature/new-feature`
+5. Pull Request with detailed description
+
+### 🏗️ Development Setup
+
 ```bash
 git clone https://github.com/Franklin-Andres-Rodriguez/HTML5-Boilerplate-Modular.git
 cd HTML5-Boilerplate-Modular
@@ -295,54 +321,56 @@ npm install
 npm run build
 ```
 
-## 📚 Documentación
+## 📚 Documentation
 
-- 📖 **Guía de Instalación** - Este README
-- 🎨 **Personalización** - Editar variables CSS
-- ⚡ **Performance** - Optimizaciones incluidas
-- ♿ **Accesibilidad** - WCAG 2.1 compliance
-- 🔧 **Build System** - Comandos npm disponibles
+- 📖 **Installation Guide** - This README
+- 🎨 **Customization** - Edit CSS variables
+- ⚡ **Performance** - Included optimizations
+- ♿ **Accessibility** - WCAG 2.1 compliance
+- 🔧 **Build System** - Available npm commands
 
 ## 🎉 Showcase
 
-### 🌟 Proyectos Construidos con Este Boilerplate
-- ¿Tu proyecto? - [Compártelo con nosotros](../../discussions)
+### 🌟 Projects Built with This Boilerplate
 
-### 💬 Comunidad
-- [Discussions](../../discussions) - Preguntas y respuestas
-- [Issues](../../issues) - Bugs y sugerencias
+- Your project? - [Share it with us](../../discussions)
 
-## 📄 Licencia
+### 💬 Community
 
-[MIT License](LICENSE) - Úsalo libremente en proyectos personales y comerciales.
+- [Discussions](../../discussions) - Questions and answers
+- [Issues](../../issues) - Bugs and suggestions
 
-## 🙏 Agradecimientos
+## 📄 License
 
-- [HTML5 Boilerplate](https://html5boilerplate.com/) - Inspiración original
-- [Normalize.css](https://necolas.github.io/normalize.css/) - Base de reset CSS
-- [MDN Web Docs](https://developer.mozilla.org/) - Documentación de referencia
-- Todos los contribuidores que hacen este proyecto mejor
+[MIT License](LICENSE) - Use freely in personal and commercial projects.
+
+## 🙏 Acknowledgments
+
+- [HTML5 Boilerplate](https://html5boilerplate.com/) - Original inspiration
+- [Normalize.css](https://necolas.github.io/normalize.css/) - CSS reset base
+- [MDN Web Docs](https://developer.mozilla.org/) - Reference documentation
+- All contributors who make this project better
 
 ---
 
-## 🚀 Empezar Ahora
+## 🚀 Get Started Now
 
 ```bash
-# Proyecto completo (recomendado)
-cp -r releases/complete mi-proyecto-genial && cd mi-proyecto-genial && open index.html
+# Complete project (recommended)
+cp -r releases/complete my-awesome-project && cd my-awesome-project && open index.html
 
-# Landing page rápida  
-cp -r releases/minimal mi-landing-page && cd mi-landing-page && open index.html
+# Fast landing page
+cp -r releases/minimal my-landing-page && cd my-landing-page && open index.html
 
-# Solo componentes para proyecto existente
-cp -r releases/html-only/components mi-proyecto-existente/
+# Components only for existing project
+cp -r releases/html-only/components my-existing-project/
 ```
 
-⭐ **Si te fue útil, dale una estrella al repo** ⭐
+⭐ **If this was helpful, give the repo a star** ⭐
 
 ---
 
-**Hecho con ❤️ para la comunidad de desarrolladores**
+## Made with ❤️ for the developer community
 
-¿Problemas? ¿Preguntas? ¿Ideas geniales?
-💬 [Únete a la conversación](../../discussions)
+Problems? Questions? Great ideas?
+💬 [Join the conversation](../../discussions)
